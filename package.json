@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^6.14.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
